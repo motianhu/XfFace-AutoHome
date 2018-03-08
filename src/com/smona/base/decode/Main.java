@@ -1,0 +1,29 @@
+package com.smona.base.decode;
+
+import com.utils.biz.CryptoTools;
+
+public class Main {
+
+	public static void main(String[] args) {
+		CryptoTools tools = CryptoTools.getTools();
+		try {
+			String t = tools.encode("hysoft");
+			decode(tools);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+
+	}
+	
+	private static void decode(CryptoTools tools) {
+		String str = "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";
+		try {
+			System.out.println(tools.decode(str));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+
+}

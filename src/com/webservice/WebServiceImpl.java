@@ -1,5 +1,5 @@
 
-package com.smona.base.webservice;
+package com.webservice;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;

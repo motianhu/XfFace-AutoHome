@@ -1,4 +1,4 @@
-package com.smona.base.webservice;
+package com.webservice;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -13,9 +13,9 @@ import com.utils.biz.CryptoTools;
 
 public class MainTestClient {
 
-	private static final String PG = "NS201702040211";
+	private static final String PG = "NS201803060302";
 
-	private static final boolean VRE_DEBUG_21 = false;
+	private static final boolean VRE_DEBUG_21 = true;
 	private static final boolean VRE_DEBUG_22 = false;
 	private static final boolean VRE_DEBUG_03 = false;
 	private static final boolean VRE_DEBUG_FILE_PIC = false;
@@ -23,7 +23,7 @@ public class MainTestClient {
 	private static final boolean VRE_DEBUG_FILE = VRE_DEBUG_FILE_PIC
 			|| VRE_DEBUG_FILE_PDF;
 
-	private static final boolean VRE_DEBUG_INVOKE = false;
+	private static final boolean VRE_DEBUG_INVOKE = true;
 	private static final boolean VRE_DEBUG_DECODE = false;
 
 	public static void main(String args[]) {

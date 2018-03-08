@@ -1,5 +1,5 @@
 
-package com.smona.base.webservice;
+package com.webservice;
 
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlElementDecl;

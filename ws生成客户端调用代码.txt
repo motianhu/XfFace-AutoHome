@@ -1,0 +1,4 @@
+﻿cmd:
+  wsimport -s . http://112.74.65.110:12000/carWeb/external/webService?wsdl
+
+wsimport是jdk bin下自带的生成工具，-s是生成源码，.是目录，可自定义，uri是服务端发布的wsdl

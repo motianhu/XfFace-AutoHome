@@ -1,5 +1,5 @@
 
-package com.smona.base.webservice;
+package com.webservice;
 
 import java.net.MalformedURLException;
 import java.net.URL;
